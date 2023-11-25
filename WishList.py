@@ -26,7 +26,8 @@ while True:
             print(f"{i}.{wish}")
         delete_index = input(f"{name}, enter the number of the wish to remove it|||||")
         delete_index = int(delete_index)
-
+        if wish in wishlist:
+            wishlist.remove(wish)
 
 
 
