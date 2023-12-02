@@ -21,11 +21,13 @@ while True:
     elif action =="2":
         for i, wish in enumerate(wishlist, start = 1):
             print(f"{i}.{wish}")
+
     elif action =="3":
         for i, wish in enumerate(wishlist, start = 1):
             print(f"{i}.{wish}")
         delete_index = input(f"{name}, enter the number of the wish to remove it|||||")
-        delete_index = int(delete_index)
+        delete_index = int(delete_index) - 1
+        wishlist.pop(delete_index)
 
 
 
