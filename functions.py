@@ -71,7 +71,7 @@ def craft():
 
 
 def robot_scan():
-    items = ["bottle", "stick", "bag", "rust", "wood(lame)", "broken cup", "knife","tape", "cable", "iron bar", 'seeds', 'hose','PIPE','unknown','red paint' 'low end explosive filling', "gunpowder"]
+    items = ["bottle", "stick", "bag", "rust", "wood(lame)", "broken cup", "knife","tape", "cable", "iron bar", 'seeds', 'hose','PIPE','unknown','red paint', 'low end explosive filling', "gunpowder"]
     item = random.choice(items)
     print(f"found: {item}")
     return item

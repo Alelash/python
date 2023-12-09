@@ -29,10 +29,7 @@ while True:
         delete_index = int(delete_index)
         if wish in wishlist:
             wishlist.remove(wish)
-
-
-
-
+        
 
 
 
