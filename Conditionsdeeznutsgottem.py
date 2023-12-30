@@ -14,6 +14,7 @@ if age != 11:
 
 
 
+
 temp = int (input ("введите число >>>> "))
 if temp < 0:
     print("АААААААА ХОЛОДНААА")
@@ -26,7 +27,7 @@ elif temp == 35:
 elif temp < 35:
     print("тёпленько")
 else:
-    print("ОФИГЕТЬ ЖАРКО КАК ТЫ ЕЩЁ ДЫШЕШЬ?")
+    print("умираю")
 number = int(input(""))
 if number %2 == 1:
     print("число нечётное")
